@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: bootstrap-stub-gbf8
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads-stage/jduimovich-tenant/bootstrap-stub-1/bootstrap-stub-gbf8@sha256:989130706620e9cc12f75c13d2b14a804abe8d27103195d457c2fee5da436e8f
         imagePullPolicy: Always
         name: container-image
         ports:
